@@ -29,59 +29,106 @@
 	background-color: rgba($header-color, $header-transparency);
 }
 @media only screen and (max-width: 768px) {
-  body, html {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    overflow-x: hidden;
-  }
+    body, html {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        overflow-x: hidden;
+    }
 
-  .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    padding: 20px;
-    box-sizing: border-box;
-  }
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding: 20px;
+        box-sizing: border-box;
+    }
 
-  .appInfo, .appNamePriceContainer, .appDescriptionContainer, .downloadButtonsContainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    text-align: center;
-  }
+    .headerBackground {
+        height: auto;
+    }
 
-  .appIconLarge {
-    width: 120px;
-    height: 120px;
-    margin-bottom: 20px;
-  }
+    .appInfo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        text-align: center;
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
 
-  .appName, .appDescription {
-    width: 100%;
-    text-align: center;
-  }
+    .appIconShadow {
+        margin-bottom: 20px;
+    }
 
-  .appStore {
-    width: 80%;
-    max-width: 250px;
-    margin-top: 20px;
-  }
+    .appIconLarge {
+        width: 120px;
+        height: 120px;
+    }
 
-  .iphonePreview {
-    width: 100%;
-    max-width: 300px;
-    margin-top: 30px;
-    display: flex;
-    justify-content: center;
-  }
+    .appNamePriceContainer {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
 
-  .iphoneScreen {
-    width: 100%;
-    height: auto;
-  }
+    .appName {
+        font-size: 28px;
+        margin-bottom: 5px;
+    }
+
+    .appPrice {
+        font-size: 20px;
+    }
+
+    .appDescriptionContainer {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .appDescription {
+        font-size: 16px;
+    }
+
+    .downloadButtonsContainer {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .appStore {
+        max-width: 200px;
+        width: 80%;
+    }
+
+    .iphone {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .iphoneScreenImage {
+        width: 80%;
+        max-width: 300px;
+        height: auto;
+        margin-right: 0;
+        float: none;
+    }
+
+    .features {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .feature {
+        width: 100%;
+        padding: 20px 0;
+    }
 }
 
 @media only screen and (max-width: 768px) {
