@@ -28,108 +28,108 @@
 	height: 115px;
 	background-color: rgba($header-color, $header-transparency);
 }
-@media only screen and (max-width: 768px) {
-    body, html {
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        overflow-x: hidden;
-    }
+// @media only screen and (max-width: 768px) {
+//     body, html {
+//         margin: 0;
+//         padding: 0;
+//         width: 100%;
+//         overflow-x: hidden;
+//     }
 
-    .container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
-        padding: 20px;
-        box-sizing: border-box;
-    }
+//     .container {
+//         display: flex;
+//         flex-direction: column;
+//         align-items: center;
+//         width: 100%;
+//         padding: 20px;
+//         box-sizing: border-box;
+//     }
 
-    .headerBackground {
-        height: auto;
-    }
+//     .headerBackground {
+//         height: auto;
+//     }
 
-    .appInfo {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
-        text-align: center;
-        padding: 0 20px;
-        box-sizing: border-box;
-    }
+//     .appInfo {
+//         display: flex;
+//         flex-direction: column;
+//         align-items: center;
+//         width: 100%;
+//         text-align: center;
+//         padding: 0 20px;
+//         box-sizing: border-box;
+//     }
 
-    .appIconShadow {
-        margin-bottom: 20px;
-    }
+//     .appIconShadow {
+//         margin-bottom: 20px;
+//     }
 
-    .appIconLarge {
-        width: 120px;
-        height: 120px;
-    }
+//     .appIconLarge {
+//         width: 120px;
+//         height: 120px;
+//     }
 
-    .appNamePriceContainer {
-        width: 100%;
-        text-align: center;
-        margin-bottom: 10px;
-    }
+//     .appNamePriceContainer {
+//         width: 100%;
+//         text-align: center;
+//         margin-bottom: 10px;
+//     }
 
-    .appName {
-        font-size: 28px;
-        margin-bottom: 5px;
-    }
+//     .appName {
+//         font-size: 28px;
+//         margin-bottom: 5px;
+//     }
 
-    .appPrice {
-        font-size: 20px;
-    }
+//     .appPrice {
+//         font-size: 20px;
+//     }
 
-    .appDescriptionContainer {
-        width: 100%;
-        text-align: center;
-        margin-bottom: 20px;
-    }
+//     .appDescriptionContainer {
+//         width: 100%;
+//         text-align: center;
+//         margin-bottom: 20px;
+//     }
 
-    .appDescription {
-        font-size: 16px;
-    }
+//     .appDescription {
+//         font-size: 16px;
+//     }
 
-    .downloadButtonsContainer {
-        display: flex;
-        justify-content: center;
-        width: 100%;
-        margin-top: 20px;
-    }
+//     .downloadButtonsContainer {
+//         display: flex;
+//         justify-content: center;
+//         width: 100%;
+//         margin-top: 20px;
+//     }
 
-    .appStore {
-        max-width: 200px;
-        width: 80%;
-    }
+//     .appStore {
+//         max-width: 200px;
+//         width: 80%;
+//     }
 
-    .iphone {
-        margin-top: 50px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+//     .iphone {
+//         margin-top: 50px;
+//         display: flex;
+//         flex-direction: column;
+//         align-items: center;
+//     }
 
-    .iphoneScreenImage {
-        width: 80%;
-        max-width: 300px;
-        height: auto;
-        margin-right: 0;
-        float: none;
-    }
+//     .iphoneScreenImage {
+//         width: 80%;
+//         max-width: 300px;
+//         height: auto;
+//         margin-right: 0;
+//         float: none;
+//     }
 
-    .features {
-        flex-direction: column;
-        align-items: center;
-    }
+//     .features {
+//         flex-direction: column;
+//         align-items: center;
+//     }
 
-    .feature {
-        width: 100%;
-        padding: 20px 0;
-    }
-}
+//     .feature {
+//         width: 100%;
+//         padding: 20px 0;
+//     }
+// }
 
 @media only screen and (max-width: 768px) {
 
