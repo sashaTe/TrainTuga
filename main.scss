@@ -30,6 +30,22 @@ $feature-icons-background-color: {{ site.feature_icons_background_color }};
 $social-icons-foreground-color: {{ site.social_icons_foreground_color }};
 $social-icons-background-color: {{ site.social_icons_background_color }};
 
+
+.iphoneScreenImage {
+    width: 250px;  /* Adjust width as needed */
+    height: auto;  /* Maintain aspect ratio */
+    margin-right: 20px; /* Space between the image and app info */
+    float: left;  /* Align image to the left */
+    display: block; /* Ensures proper rendering */
+}
+
+.appInfo {
+    overflow: hidden; /* Contain floated elements */
+    background-color: $body-color; /* Use body background color */
+    color: $app-description-color; /* Use app description color for text */
+    padding: 20px; /* Add some padding for aesthetics */
+}
+
 @import 
     "base",
     "layout",
