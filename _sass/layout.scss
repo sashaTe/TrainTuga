@@ -28,6 +28,48 @@
 	height: 115px;
 	background-color: rgba($header-color, $header-transparency);
 }
+@media only screen and (max-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .appIconLarge {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 20px;
+  }
+
+  .appName {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .appDescription {
+    font-size: 16px;
+    text-align: center;
+    margin: 20px 0;
+  }
+
+  .downloadButtonsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .appStore {
+    width: 200px;
+    margin-top: 20px;
+  }
+
+  .iphonePreview {
+    width: 100%;
+    max-width: 300px;
+    margin-top: 30px;
+  }
+}
 
 @media only screen and (max-width: 768px) {
 
